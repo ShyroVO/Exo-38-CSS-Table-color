@@ -1,0 +1,73 @@
+
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.contenues {
+    margin-top: 15%;
+    margin-left: 33%;
+    font-size: 16px;
+}
+
+table {
+    text-align: center;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: solid darkgray 1px;
+}
+
+td {
+    padding-top: 0.5%;
+    padding-bottom: 0.5% ;
+}
+
+tr td:nth-child(1) {
+    font-weight: bold;
+}
+
+tr td:nth-child(2) {
+    font-weight: bold;
+}
+
+caption {
+    font-weight: bold;
+    padding-bottom: 1%;
+}
+
+.textcouleur1 {
+    color: var(--couleur1);
+}
+
+.textcouleur2 {
+    color: var(--couleur2);
+}
+
+
+:root {
+    --couleur1: blue;
+    --couleur2: red;
+}
+
+.fond1 {
+    background: dodgerblue;
+}
+
+.fond2 {
+    background: red;
+}
+
+.fond3 {
+    background: purple;
+}
+
+.fond4 {
+    background: hotpink;
+}
+
+.fond5 {
+    background: orange;
+}
